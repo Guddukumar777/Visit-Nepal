@@ -1,0 +1,142 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0; /* Remove default body margin for full width/height */
+  overflow-y: scroll; /* Enable vertical scrolling for the body */
+}
+#demo {
+            
+            margin-top: 20px;
+                }
+.p1{
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  animation: colorChange 100s infinite; 
+}
+@keyframes colorChange {
+  0% {
+    color: crimson;
+  }
+  5% {
+    color: coral;
+  }
+  10% {
+    color: gold;
+  }
+  15% {
+    color: mediumseagreen;
+  }
+  20% {
+    color: dodgerblue;
+  }
+  25% {
+    color: darkorange;
+  }
+  30% {
+    color: khaki;
+  }
+  35% {
+    color: limegreen;
+  }
+  40% {
+    color: steelblue;
+  }
+  45% {
+    color: firebrick;
+  }
+  50% {
+    color: indianred;
+  }
+  55% {
+    color: darkorange;
+  }
+  60% {
+    color: khaki;
+  }
+  65% {
+    color: limegreen;
+  }
+  70% {
+    color: steelblue;
+  }
+  75% {
+    color: darkorange;
+  }
+  80% {
+    color: khaki;
+  }
+  85% {
+    color: limegreen;
+  }
+  90% {
+    color: steelblue;
+  }
+  100% {
+    color: firebrick;
+  }
+}
+
+.p2{
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.image{
+  height: 400px;
+  width:auto;
+  display: flex;
+  justify-content: center;
+  padding-top:  20px;
+  margin: 20px;
+}
+.imageGallery{
+  height: 300px;
+  width:100;
+background-size: cover;
+  background-repeat: no-repeat;
+display: block;
+      margin-bottom: 10px;
+  
+  font-size: 25px;
+  font-weight: 900;
+}
+button{
+  
+  font-size: 25px;
+  text-align: center;
+  font-weight: 900;
+}
+button:hover{
+  
+  background-color: aqua;
+}
+button:active{
+  
+  background-color: blue;
+}
+.return {
+  font-weight: 900;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  display: flex;
+  z-index: 10;
+  align-items: flex-start;
+  flex-direction: column;
+  position: fixed; /* Use fixed position for the button */
+  top: 200px; /* Adjust the top property for your desired distance from the top */
+  left: 10px; /* Adjust the left property for your desired distance from the left */
+}
+
+#imageGallery{
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+

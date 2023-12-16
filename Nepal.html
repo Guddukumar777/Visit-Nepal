@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style_hidden.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+   <script src="Nepal_hidden.js"></script>
+
+</head>
+<body>
+  <div class="Nepal2">
+    <h1 class="fa-brands fa-beat-fade">MERO NEPAL</h1> 
+<a href="Nepal.html"> <button>Home</button></a> 
+     
+    <a href="Gallery.html"><button id="galleryButton" onclick="toggleGallery()">Gallery</button>
+</a>
+    <a href="NEPAL1.html"> <button> About </button></a> 
+     
+    <a ><button onclick="toggleForm()"> Contact</button>
+  </a>
+     <a href="location.html"><button> Location of..</button></a> 
+    
+  </div>
+   <div class="Nepal3">
+    <h3>Welcome To Nepal</h3>
+    <h2>Do COME & VISIT <br><span class="Nepal4"></span></h2> 
+    
+   		<p>"Nepal Once is Not Enough"</p>
+<button onclick="toggleForm()">Sign up</button>
+   		
+    <a href="NEPAL1.html"> <button> Learn More </button></a> 
+     
+  </div>
+   
+  <div class="Nepal5">
+
+
+
+
+<form action="/action_page.php" id="signupForm" style="display: none;">
+
+    Enter name:
+    <input type="text" id="name"  placeholder="Enter name" required> <br><br>
+
+    Contact No:
+    <select id="contactNoPrefix">
+        <option>91</option>
+        <option>92</option>
+        <option>93</option>
+        <option>971</option>
+        <option>972</option>
+        <option>974</option>
+        <option>975</option>
+        <option>86</option>
+    </select>
+    <input type="number" id="contactNo"  placeholder="Enter Contact no:" maxlength="10" required> <br><br>
+
+    Enter Email
+    <input type="mail" id="email"  placeholder="Enter Email" required>
+
+    <input type="button" value="Submit" onclick="checkAndSubmitForm(); toggleForm();">
+</form>
+    </div>
+</body>
+</html>

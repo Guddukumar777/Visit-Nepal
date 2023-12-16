@@ -1,0 +1,115 @@
+
+body {
+  
+  background-image: url("");
+background-color: linear-gradient(rgba(0, 0, 222, 0.3), rgba(233, 0, 0, 0.4));
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: changeBackground 50s infinite ease-in;
+  font-size: 25px;
+  font-weight: 900;
+  z-index: 10;
+  text-decoration: none;
+  }
+h1{
+  
+}
+@keyframes changeBackground {
+  0% { background-image: url("Pashupatinath.jpg"); 
+    
+  }
+  5% { background-image: url("ChanguNarayan.jpg"); }
+  10% { background-image: url("Guhyeshwari.jpg"); }
+  15% { background-image: url("DakshinkaliTemple.jpg"); }
+  20% { background-image: url("ManakamanaTemple.jpg"); }
+  25% { background-image: url("DantakaliTemple.jpg"); }
+  30% { background-image: url("BudhanilkanthaTemple.jpg"); }
+  35% { background-image: url("BindabasiniTemple.jpg"); }
+  40% { background-image: url("SwayambhunathStupa.jpg"); }
+  45% { background-image: url("MuktinathTemple.jpg"); }
+  50% { background-image: url("JanakiMandir.jpg"); }
+  55% { background-image: url("BaglungKalikaTemple.jpg"); }
+  60% { background-image: url("MaulaKalikaTemple.jpg"); }
+  65% { background-image: url("MayadeviTemple.jpg"); }
+  70% { background-image: url("BajrayoginiTemple.jpg"); }
+  75% { background-image: url("BoudhanathStupa.jpg"); }
+  80% { background-image: url("TalBarahiTemple.jpg"); }
+  85% { background-image: url("DevghatDham.jpg"); }
+  90% { background-image: url("ChabdiBarahiTemple.jpg"); }
+  95% { background-image: url("PanchakanyaTemple.jpg"); }
+  100% { background-image: url("JanakiMandir.jpg"); }
+}
+
+@media (min-width: 768px) {
+  body {background-size: 100% 100vh;}
+}
+.Nepal2{
+  opacity: 1;
+  height: 100px;
+  width:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: linear-gradient(rgba(0, 0, 222, 0.8), rgba(233, 0, 0, 0.9));
+
+}
+.Nepal3{
+  display: block;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+  
+}
+
+.Nepal4:after {
+  content:"";
+  
+  animation: text 50s infinite linear;
+}
+
+@keyframes text {
+  0% { content: "Pashupatinath Temple"; }
+  5% { content: "Changu Narayan Temple"; }
+  10% { content: "Guhyeshwari Temple"; }
+  15% { content: "Dakshinkali Temple"; }
+  20% { content: "Manakamana Temple"; }
+  25% { content: "Dantakali Temple"; }
+  30% { content: "Budhanilkantha Temple"; }
+  35% { content: "Bindabasini Temple"; }
+  40% { content: "Swayambhunath Stupa"; }
+  45% { content: "Muktinath Temple"; }
+  50% { content: "Janaki Mandir"; }
+  55% { content: "Baglung Kalika Temple"; }
+  60% { content: "Maula Kalika Temple"; }
+  65% { content: "Mayadevi Temple"; }
+  70% { content: "Bajrayogini Temple"; }
+  75% { content: "Boudhanath Stupa"; }
+  80% { content: "Tal Barahi Temple"; }
+  85% { content: "Devghat Dham"; }
+  90% { content: "Chabdi Barahi Temple"; }
+  95% { content: "Panchakanya Temple"; }
+  100% { content: "Janaki Mandir"; }
+}
+.Nepal5{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+button{
+  height: 30px;
+  width:auto;
+  text-align: center;
+  border-radius: 30px;
+}
+button:hover{
+  
+  background-color: aqua;
+}
+button:active{
+  
+  background-color: blue;
+}

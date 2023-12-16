@@ -1,0 +1,71 @@
+body {
+  height: 100℅;
+  width:50℅;
+  background-image: url("");
+background-color: linear-gradient(rgba(0, 0, 222, 0.3), rgba(233, 0, 0, 0.4));
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: changeBackground 50s infinite ease-in;
+  font-size: 25px;
+  font-weight: 900;
+  z-index: -1;
+  text-decoration: none;
+  }
+@keyframes changeBackground {
+  0% { background-image: url("Pashupatinath.jpg"); 
+    
+  }
+  5% { background-image: url("ChanguNarayan.jpg"); }
+  10% { background-image: url("Guhyeshwari.jpg"); }
+  15% { background-image: url("DakshinkaliTemple.jpg"); }
+  20% { background-image: url("ManakamanaTemple.jpg"); }
+  25% { background-image: url("DantakaliTemple.jpg"); }
+  30% { background-image: url("BudhanilkanthaTemple.jpg"); }
+  35% { background-image: url("BindabasiniTemple.jpg"); }
+  40% { background-image: url("SwayambhunathStupa.jpg"); }
+  45% { background-image: url("MuktinathTemple.jpg"); }
+  50% { background-image: url("JanakiMandir.jpg"); }
+  55% { background-image: url("BaglungKalikaTemple.jpg"); }
+  60% { background-image: url("MaulaKalikaTemple.jpg"); }
+  65% { background-image: url("MayadeviTemple.jpg"); }
+  70% { background-image: url("BajrayoginiTemple.jpg"); }
+  75% { background-image: url("BoudhanathStupa.jpg"); }
+  80% { background-image: url("TalBarahiTemple.jpg"); }
+  85% { background-image: url("DevghatDham.jpg"); }
+  90% { background-image: url("ChabdiBarahiTemple.jpg"); }
+  95% { background-image: url("PanchakanyaTemple.jpg"); }
+  100% { background-image: url("JanakiMandir.jpg"); }
+}
+    .locationmap {
+      text-decoration: none;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .locationmap iframe {
+      display: none; /* initially hide the map */
+      height: 200px; /* set a fixed height for consistency */
+      width: 100%; /* occupy the full width */
+    }
+		button {
+      margin-bottom: 10px; /* add margin to create vertical spacing */
+				display:flex;
+    }
+  
+
+.return {
+  font-weight: 900;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  z-index: 10;
+  align-items: flex-end;
+  flex-direction: row;
+  position: fixed; /* Use fixed position for the button */
+  top: 200px; /* Adjust the top property for your desired distance from the top */
+  right: 10px; /* Adjust the left property for your desired distance from the left */
+}
